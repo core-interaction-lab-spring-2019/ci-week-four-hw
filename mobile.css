@@ -10,4 +10,25 @@
 		max-width: 600px;
 		margin-bottom: 20px;
 	}
+
+	.text-module-container {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 40px;
+		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+
+	.text-module {
+		width: 100%;
+		max-width: 600px;
+		background-color: black;
+		border: 2px solid rgb(206, 206, 206);
+		margin-bottom: 10px;
+	}
+
+	p {
+		color: rgb(206, 206, 206);
+	}
+
 }

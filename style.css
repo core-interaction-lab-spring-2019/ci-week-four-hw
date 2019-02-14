@@ -33,7 +33,7 @@ header {
 	font-size: 4.8em;
 	letter-spacing: .1em;
 	text-align: center;
-	margin: var(--spacing) 0;
+	margin: 50px 0 var(--spacing);
 }
 
 .card-container {
@@ -79,5 +79,28 @@ header {
 }
 
 .text-module-container {
-	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 80px;
+	max-width: 1280px;
+	padding: 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.text-module {
+	/* margin: 0px 100px 0px 100px; */
+	width: 400px;
+	background-color: var(--color-three);
+	border: 2px solid var(--color-one);
+}
+
+p {
+	font-family: var(--copy-font);
+	font-size: 1.6em;
+	line-height: 1.4;
+	color: var(--color-one);
+	padding: 30px 30px 30px 35px;
+	text-align: left;
 }
