@@ -3,9 +3,11 @@
 	--color-two: #F5ECCD;
 	--color-three: #FFFFFF;
 	--color-four: rgba(0,0,0,.75);
+	--color-five: white;
 	--title-font: "Staatliches", cursive;
 	--copy-font: "Ubuntu", sans-serif;
 	--spacing: 15px;
+	--padding: 20px;
 }
 
 body {
@@ -79,5 +81,13 @@ header {
 }
 
 .text-module-container {
-	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	max-width: 1280px;
+	padding: 0 20px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
 }
