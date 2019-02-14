@@ -23,6 +23,7 @@ header {
 	text-align: center;
 }
 
+
 .site-title {
 	display: inline-block;
 	padding: var(--spacing);
@@ -76,8 +77,25 @@ header {
 	color: var(--color-one);
 	padding: 0 var(--spacing) var(--spacing);
 	text-align: center;
+
+}
+
+.text-module {
+	width: 500px;
+	padding: 40px;
+	border: 5px solid black;
+	margin: 20px;
+	background-color: white;
+	text-align: left;
+	font-size: 15pt;
 }
 
 .text-module-container {
-	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+	max-width: 1280px;
+	padding: 0 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
