@@ -14,6 +14,16 @@
 	.text-module-container {
 		flex-wrap: wrap;
 		justify-content: center;
+		
+	}
+
+	.text-module {
+		background-color: var(--color-one);
+		border: solid var(--color-three);
+	}
+
+	.card__summaryhw {
+		color: white;
 	}
 
 }

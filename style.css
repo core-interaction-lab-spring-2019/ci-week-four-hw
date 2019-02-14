@@ -110,3 +110,12 @@ header {
 	transform: translateY(-1px);
 	
 }
+
+.card__summaryhw {
+	font-family: var(--copy-font);
+	font-size: 1.6em;
+	line-height: 1.4;
+	color: var(--color-one);
+	padding: 0 var(--spacing) var(--spacing);
+	text-align: center;
+}
