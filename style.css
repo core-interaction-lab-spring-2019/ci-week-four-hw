@@ -80,4 +80,33 @@ header {
 
 .text-module-container {
 	margin-top: 20px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	padding: 0 20px;
+	justify-content: space-between;
+	max-width: 1280px;
+	padding: 0 20px;
+
+		
+}
+
+.text-module {
+	width: 500px;
+	background-color: var(--color-three);
+	box-shadow: 0px 0px 10px 0px var(--color-four);
+	transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+	overflow: hidden;
+	border: solid black;
+	/* display:inline-block; */
+	margin: 20px;
+
+}
+
+
+.text-module:hover	 {
+	box-shadow: 0px 0px 25px 0px var(--color-four);
+	transform: translateY(-1px);
+	
 }
