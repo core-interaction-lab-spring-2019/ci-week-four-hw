@@ -1,6 +1,6 @@
 :root {
-	--color-one: #000000;
-	--color-two: #F5ECCD;
+	--color-one: #df4444;
+	--color-two: rgb(52, 231, 255);
 	--color-three: #FFFFFF;
 	--color-four: rgba(0,0,0,.75);
 	--title-font: "Staatliches", cursive;
@@ -81,3 +81,4 @@ header {
 .text-module-container {
 	margin-top: 20px;
 }
+
