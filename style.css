@@ -79,6 +79,27 @@ header {
 }
 
 .text-module-container {
-	margin-top: 20px;
+	/* margin-top: 20px; */
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	max-width: 1280px;
+	padding: 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
+.text-module{
+	width: 345px;
+	margin: 0 20px;
+	padding:29px;
+	font-size: large;
+	border: solid;
+    border-color: black;
+	background-color: var(--color-three);
+	box-shadow: 0px 0px 10px 0px var(--color-four);
+	transition: box-shadow .3s ease-in-out, transform .3s ease-in-out;
+	overflow: hidden;
+	/* border-radius: var(--spacing); */
+}
